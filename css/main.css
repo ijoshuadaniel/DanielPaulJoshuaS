@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  background-color: white;
+}
+
+.profile-div {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.profile-div .side-menu {
+  width: 200px;
+  height: 100%;
+  background-color: #f15152;
+}
+
+.profile-div ul {
+  background-color: #f15152;
+  padding-top: 60px;
+}
+
+.profile-div ul .list {
+  margin: 10px 0px;
+  padding: 2px;
+}
+
+.profile-div ul .list a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.profile-div ul .list .icon {
+  background-color: #f15152;
+}
+
+.profile-div ul li {
+  background-color: #f15152;
+  list-style: none;
+  text-align: center;
+}
+
+.profile-div ul li h5 {
+  background-color: #f15152;
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.profile-div ul li p {
+  background-color: #f15152;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.profile-div ul li img {
+  width: 40%;
+  border-radius: 100%;
+}
+
+.section-div {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 220px;
+  background-color: white;
+}
+
+.section-div .about {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-div .experience {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.section-div .good {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.section-div .works {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.section-div .contact {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+@media only screen and (max-width: 769px) {
+  * {
+    background-color: white;
+    font-size: 12px;
+  }
+  .profile-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    background-color: white;
+  }
+  .profile-div .side-menu {
+    width: 130px;
+    height: 50%;
+    background-color: #f15152;
+  }
+  .profile-div .side-menu li {
+    font-size: 12px;
+    background-color: #f15152;
+  }
+  .section-div {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-color: white;
+  }
+  .section-div h4 {
+    position: relative;
+    left: 0;
+  }
+}
